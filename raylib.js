@@ -349,8 +349,6 @@ class RaylibJs {
         font.load();
     }
 
-    
-
     GenTextureMipmaps() {}
     SetTextureFilter() {}
 
