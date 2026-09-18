@@ -44,10 +44,10 @@ class RaylibJs {
         this.currentMousePosition = {x: 0, y: 0};
         this.images = [];
         this.quit = false;
+        this.traceLogLevel = LOG_INFO;
     }
 
     constructor() {
-        this.traceLogLevel = LOG_INFO;
         this.#reset();
     }
 
@@ -348,6 +348,8 @@ class RaylibJs {
         document.fonts.add(font);
         font.load();
     }
+
+    
 
     GenTextureMipmaps() {}
     SetTextureFilter() {}
