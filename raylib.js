@@ -238,7 +238,7 @@ class RaylibJs {
         case LOG_WARNING: console.log(`WARNING: ${text} ${args}`); break;
         case LOG_ERROR:   console.log(`ERROR: ${text} ${args}`);   break;
         case LOG_FATAL:   throw new Error(`FATAL: ${text}`);
-        case LOG_NONE:    console.log(`NONE: ${text} ${args}`);    break;
+        case LOG_NONE:    break;
         }
     }
 
